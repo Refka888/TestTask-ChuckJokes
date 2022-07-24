@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/Montserrat/Montserrat-ExtraBold.ttf") format("ttf");   
+   }
+:root {
+    --white: #ffffff;
+  }
+  *{
+    box-sizing: border-box;
+}
+nav{
+    height: 61px; 
+    background-color: #303030;
+}
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+
+}
+.img1{
+    padding-right: 7px;
+}
+.img2{
+    padding-left: 10px;
+}
+body{
+    font-family: "Montserrat";
+    font-size:16px;
+    line-height: 22px;
+}
+.placeholder{
+    text-decoration: none;
+    color: white;
+  }
+.wrapper{
+    border: 1px solid #57dbe6;
+    text-align: right;
+    padding-right: 150px;
+}
+.wrapper a{
+    text-decoration: none;
+    color:white;
+}
+header li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+header li a{
+    display: block;
+    padding: 20px;
+}
+header li a:hover{
+   background-color: #cfb995;
+}
+header li:hover .sub-menu{
+    display: block;
+    z-index: 1;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    border: #57dbe6 solid 0.5px;
+    border-radius: 10px;
+    width: 170px; 
+    text-align: left;
+    background-color: white;
+  }
+  .sub-menu li a{
+    color:#303030;
+    padding: 10px; 
+  }
+  .sub-menu li:hover a{ 
+    background-color: white;
+    color: #cfb995;
+ 
+}
+.hr-sub-menu{
+    background-color:#57dbe6;
+    border:none;
+    height: 1px;
+    margin: 0 3px ;
+  }
+  .img3{
+    object-fit: cover;
+    width: 100%;
+    border: #57dbe6 1px solid;
+  }
+  .container2{
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+  }
+  .card{
+    position:relative;
+  }
+  .heading, .heading1{
+    position:absolute;
+    text-align: center;
+    width: 100%;
+
+  }
+  .heading{
+    top: 35%;
+    color:#cfb995;
+    font-size: 2.3rem;
+  }
+  .heading1{
+    top: 50%;
+    color:white;
+    font-size: 1.1rem;
+  }
+  .img4{
+  margin-left: 70px;
+  padding-top: 5px;
+  width: 20px;
+  height: 20px;
+  }
+  #input{
+top:65%;
+position:absolute;
+text-align: center;
+width: 100%;
+  }
+  #input a{
+    width: 40%;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+  }
+.jokes{
+    display:flex;
+    flex-wrap: wrap;
+}
+.jokes div a{
+    width: 150px;
+    text-align: center;
+    font-size: small;
+    display:flex;
+    flex-wrap: wrap;
+}
+.J1, .J2, .J3, .J4, .J5, .J6, .J7, .J8{
+    padding: 14px;
+    margin: 10px;
+    border-radius: 2px;
+    text-decoration: none;    
+}
+.J1, .J2, .J3, .J5, .J6, .J7{
+color:white;   
+}
+.J8{
+    color:#cfb995;
+}
+ .J1{
+    background-color: #ff5b5b;
+}
+.J2{
+    background-color:#ff915b;
+}
+.J3{
+    background-color:#ffbe5b;
+}
+.J4{
+    background-color:#ffdf5b;
+    color:#57dbe6;
+}
+.J5{
+    background-color:#8fe360;
+}
+.J6{
+    background-color:#57e690;
+}
+.J7{
+    background-color:#57dbe6;
+}
+.J8{
+    border:.5px solid grey;
+}
+.img5{
+    padding-left: 45px; 
+}
+.p-separation{
+    border-radius: 30px;
+    background-color: #57e690;
+    color: white;
+    width: 12%;
+    position: absolute;
+    top:460px;
+    padding-left: 5px;
+}
+.hr-separation{
+    background-color:rgb(202, 199, 199);
+    border:none;
+    height: 1px;
+    margin:17px 40px ;
+}
+.section3{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 50px;  
+}
+.section3div{
+  background-color: white;
+    width: 30%;
+    margin:10px;
+    padding: 10px;
+}
+h3{
+    font-weight: bolder;
+}
+h3 img{
+    padding-right: 5px;
+}
+.stats{
+    padding-top: 10px;
+    text-align: right;
+    color:#cfb995;
+    background-color: white;
+}
+.stats img{
+    padding-left: 10px;
+}
+.section3div:hover{
+    border:1px solid #57dbe6;
+}
+.view{
+    color:#cfb995;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    border: #cfb995 1px solid;
+    margin: 30px auto;
+}
+.img6{
+    object-fit: cover;
+    width: 100%;
+}
+footer{
+    position: relative;
+}
+.footerlink{
+    color:#cfb995;
+}
+.footerlink a{
+    text-decoration: none;
+    color: #cfb995;
+}
+.p1, .p2, .footerlink{
+    position:absolute;
+    padding-left: 90px;
+    font-size: 0.8rem;
+}
+.p1, .p2{
+    color:white;
+}
+.p1{
+    bottom:70px;
+}
+.p2{
+    bottom:50px;
+}
+.footerlink{
+    bottom:20px;
+}
