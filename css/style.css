@@ -197,7 +197,7 @@ color:white;
     color: white;
     width: 12%;
     position: absolute;
-    top:81%;
+    top:85%;
     padding-left: 5px;
 }
 .hr-separation{
@@ -285,4 +285,118 @@ footer{
 }
 .footerlink{
     bottom:20px;
+}
+@media screen and (max-width:767px){
+    .wrapper{
+        padding-right: 0;
+    }
+    .wrapper a{
+        width: 120px; 
+        font-size: 0.5rem;
+    }
+    .img2{
+        padding-left: 2px;
+    }
+    .img1, .img2{
+        width: 15%;
+    }
+    .heading, .heading1{
+        font-size: 0.8rem;
+    }
+    .heading{
+        top: 8%;
+    }
+    .heading1{
+        top:16%
+    }
+    #input{
+        top:25%;
+        font-size: 0.7rem;
+    }
+    #input a{
+        width: 30%;
+        padding: 2px;
+      }
+    .img4{
+        margin-left: 30px;
+        padding-top: 10px;
+      
+        }
+    .jokes > div a{
+            width: 150px;
+            margin:5px;
+    }
+    .p-separation{
+        width: 120px;
+        top:483px
+    }
+    .section3div{
+        background-color: white;
+          width: 100%;
+          text-align: center;
+        }
+    h3{
+        padding:5px 0px 0px 5px;
+        height: 15px;
+    }    
+    .p1, .p2, .footerlink{
+        font-size: 0.6rem;
+        padding-left: 50px;
+    }
+    .p1{
+        bottom:45px;
+       
+    }
+    .p2{
+        bottom:30px;
+    }
+    .footerlink{
+        bottom:15px;
+    }
+    .footerlink img{
+        width: 10px;
+    } 
+    .p-separation{
+        width: 40%;
+        position:absolute;
+        top:86%;
+    }  
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .heading{
+        top: 8%;
+    }
+    .heading1{
+        top:20%
+    }
+    #input{
+        top:35%
+    }
+h3{
+        padding:16px 2px 0 2px;
+}
+.p1, .p2, .footerlink{
+    font-size: 0.6rem;
+    padding-left: 50px;
+}
+.p1{
+    bottom:45px;
+   
+}
+.p2{
+    bottom:30px;
+}
+.footerlink{
+    bottom:15px;
+}
+.footerlink img{
+    width: 10px;
+}
+.p-separation{
+    width: 25%;
+    top:86%;
+}
+}
+@media screen and (min-width:1024px){
+    
 }
